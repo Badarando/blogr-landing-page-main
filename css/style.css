@@ -1,3 +1,29 @@
-
+.principal-intro {
+  width: 23.438rem;
+  height: 40.5rem;
+  background-image: url(../../images/bg-pattern-intro-mobile.svg), linear-gradient(to bottom, hsl(13deg, 100%, 72%), hsl(353deg, 100%, 62%));
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 36% 37%;
+  border-radius: 0 0 0 6rem;
+  border: 1px solid red;
+}
+.principal-intro .principal-intro-header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  gap: 9rem;
+  border: 1px solid green;
+}
+.principal-intro .principal-intro-title {
+  width: 18rem;
+  height: 4.5rem;
+  border: 1px solid yellow;
+  font-family: "Overpass", sans-serif;
+  text-align: center;
+  font-weight: 700;
+}
 
 /*# sourceMappingURL=style.css.map */
