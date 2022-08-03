@@ -1,7 +1,23 @@
 .button {
-    width: 10rem;
-    height: 10rem;
+    width: 9rem;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
     text-decoration: none;
-    border: 1px solid yellow;
-    
+    text-align: center;
+
+    border: 1px solid $white;
+    border-radius: 2rem;
+    color: $white;
+}
+
+.button.active {
+    background-color: $white;
+    color: $light-red;
 }

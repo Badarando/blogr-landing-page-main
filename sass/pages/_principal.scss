@@ -1,33 +1,41 @@
+
+    
 .principal-intro {
     width: 23.438rem;
-    height: 40.5rem;
+    height: 37rem;
     
     background-image: url(../../images/bg-pattern-intro-mobile.svg), linear-gradient(to bottom, $very-light-red, $light-red);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: 36% 37%;
     border-radius: 0 0 0 6rem;
-    border: 1px solid red;
+    
 
         .principal-intro-header{
             width: 100%;
             height: 5rem;
+
             display: flex;
             align-items: flex-end;
             justify-content: space-around;
             gap: 9rem;
-            border: 1px solid green;
+
+            
+            margin-bottom: 6rem;
         }
 
         .principal-intro-title {
             width: 18rem;
             height: 4.5rem;
+
             margin: auto;
-            border: 1px solid yellow;
+            
 
             font-family: 'Overpass', sans-serif;
+            color: $white;
             text-align: center;
             font-weight: 700;
+            margin-bottom: 1.5rem;
 
         }
 
@@ -35,19 +43,48 @@
             width: 21rem;
             height: 4.5rem;
             margin: auto;
-            border: 1px solid red;
+        
             
             font-family: 'Overpass', sans-serif;
             font-size: 1.2rem;
             font-weight: 500;
+            color: $white;
             text-align: center;
 
         }
 
         .principal-intro-btns {
             width: 100%;
-            height: 10rem;
-            border: 1px solid red;
+            height: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        
+            
         }
 
 }
+
+.second {
+    width: auto;
+    height: 41.688rem;
+    border-bottom: 1px solid green;
+
+        .second-title {
+            width: 18.5rem;
+            height: 2rem;
+            margin: auto;
+
+            font-family: 'Overpass', sans-serif;
+            font-size: 1.7rem;
+            border: 2px solid yellow;
+        }
+
+        .second-image {
+            width: 22rem;
+        }
+
+}
+
+
