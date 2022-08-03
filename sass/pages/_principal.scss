@@ -34,7 +34,7 @@
             font-family: 'Overpass', sans-serif;
             color: $white;
             text-align: center;
-            font-weight: 700;
+            font-weight: 600;
             margin-bottom: 1.5rem;
 
         }
@@ -47,7 +47,7 @@
             
             font-family: 'Overpass', sans-serif;
             font-size: 1.2rem;
-            font-weight: 500;
+            font-weight: 600;
             color: $white;
             text-align: center;
 
@@ -68,23 +68,107 @@
 
 .second {
     width: auto;
-    height: 41.688rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    
     border-bottom: 1px solid green;
 
         .second-title {
             width: 18.5rem;
             height: 2rem;
             margin: auto;
+            margin-top: 5rem;
 
             font-family: 'Overpass', sans-serif;
+            color: $very-dark-blue;
+            font-weight: 600;
             font-size: 1.7rem;
-            border: 2px solid yellow;
         }
 
         .second-image {
-            width: 22rem;
+            width: 23rem;
+            margin: auto;
+            margin-top: 2rem;
+            margin-bottom: 0;
         }
 
+        .second-subtitle {
+            width: 14rem;
+            height: 4rem;
+            margin: auto;
+            margin-top: 1.5rem;
+            margin-bottom: 0;
+
+            font-family: 'Overpass', sans-serif;
+            color: $very-dark-blue;
+            text-align: center;
+            font-size: 1.7rem;
+        }
+
+        .second-text {
+            width: 22rem;
+            height: 18rem;
+            margin: auto;
+            margin-top: 1rem;
+
+            font-family: 'Overpass', sans-serif;
+            color: $very-dark-grayish-blue;
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+            text-align: center;
+            font-weight: 400;
+        }
+
+}
+
+.third {
+    width: auto;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+
+        .third-title {
+            width: 15rem;
+            height: 4rem;
+            margin: auto;
+            margin-top: 3rem;
+
+            font-family: 'Overpass', sans-serif;
+            color: $very-dark-blue;
+            text-align: center;
+            font-size: 1.7rem;
+            font-weight: 600;
+        }
+
+        .third-text {
+            width: 22rem;
+            height: 11rem;
+            margin: auto;
+            margin-top: 2rem;
+
+            font-family: 'Overpass', sans-serif;
+            color: $very-dark-grayish-blue;
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+            text-align: center;
+            font-weight: 400;
+        }
+
+        .third-image {
+            width: 23rem;
+            margin: auto;
+            margin-top: 3rem;
+        }
+}
+
+.fourth {
+    width: auto;
+    height: 41.688rem;
+    border-radius: 0 6rem 0 6rem;
+    background-color: $very-dark-gray-blue;
+    background-image: url(../../images/bg-pattern-circles.svg), linear-gradient(to bottom, $very-dark-gray-blue, $very-dark-desaturated-blue)
 }
 
 
