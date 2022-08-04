@@ -168,7 +168,9 @@
     height: 41.688rem;
     border-radius: 0 6rem 0 6rem;
     background-color: $very-dark-gray-blue;
-    background-image: url(../../images/bg-pattern-circles.svg), linear-gradient(to bottom, $very-dark-gray-blue, $very-dark-desaturated-blue)
+    background-image: url(../../images/bg-pattern-circles.svg), linear-gradient(to bottom, $very-dark-gray-blue, $very-dark-desaturated-blue);
+    background-size: no-repeat;
+    
 }
 
 
