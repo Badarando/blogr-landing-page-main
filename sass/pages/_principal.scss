@@ -169,8 +169,34 @@
     border-radius: 0 6rem 0 6rem;
     background-color: $very-dark-gray-blue;
     background-image: url(../../images/bg-pattern-circles.svg), linear-gradient(to bottom, $very-dark-gray-blue, $very-dark-desaturated-blue);
-    background-size: no-repeat;
-    
+    background-repeat: no-repeat;
+    background-size: 160%;
+    background-position: center -380%;
+
+        .fourth-title {
+            width: 18rem;
+            height: 5rem;
+            border: 1px solid red;
+            font-family: 'Overpass', sans-serif;
+            font-size: 2.5rem;
+            text-align: center;
+            color: $white;
+            margin: auto;
+            padding-top: 13rem;
+        }
+
+        .fourth-text {
+            color: $white;
+            width: 22rem;
+            height: 15rem;
+        
+            font-family: 'Overpass', sans-serif;
+            font-size: 1.2rem;
+            line-height: 1.9rem;
+            text-align: center;
+            margin: auto;
+            margin-top: 2.2rem;
+        }
 }
 
 
