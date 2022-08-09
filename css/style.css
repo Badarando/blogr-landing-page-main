@@ -195,7 +195,7 @@
 }
 .principal .fifth {
   width: auto;
-  height: 40rem;
+  height: 65rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -205,10 +205,54 @@
   width: 23rem;
   height: 23rem;
   margin-top: 0;
+  margin-bottom: 0;
   background-image: url(../../images/illustration-laptop-mobile.svg);
   background-repeat: no-repeat;
   background-position: center;
-  border: 1px solid red;
+}
+.principal .fifth .fifth-title {
+  width: 15rem;
+  height: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: "Overpass", sans-serif;
+  color: hsl(208deg, 49%, 24%);
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.principal .fifth .fifth-text {
+  width: 22rem;
+  height: 16rem;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: "Overpass", sans-serif;
+  color: hsl(207deg, 13%, 34%);
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  text-align: center;
+  font-weight: 400;
+}
+.principal .fifth .fifth-second-text {
+  width: 22rem;
+  height: 10rem;
+  margin: auto;
+  margin-top: 0;
+  font-family: "Overpass", sans-serif;
+  color: hsl(207deg, 13%, 34%);
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  text-align: center;
+  font-weight: 400;
+}
+.principal .principal-footer {
+  width: auto;
+  height: 61rem;
+  background-color: hsl(240deg, 10%, 16%);
+  border-radius: 0 6rem 0 0rem;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
