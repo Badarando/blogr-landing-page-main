@@ -1,201 +1,229 @@
-
-    
-.principal-intro {
+ .principal {
     width: 23.438rem;
-    height: 37rem;
-    
-    background-image: url(../../images/bg-pattern-intro-mobile.svg), linear-gradient(to bottom, $very-light-red, $light-red);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: 36% 37%;
-    border-radius: 0 0 0 6rem;
-    
+    height: 293.063rem;
 
-        .principal-intro-header{
-            width: 100%;
-            height: 5rem;
+        .principal-intro {
+            width: 23.438rem;
+            height: 37rem;
 
-            display: flex;
-            align-items: flex-end;
-            justify-content: space-around;
-            gap: 9rem;
+            background-image: url(../../images/bg-pattern-intro-mobile.svg), linear-gradient(to bottom, $very-light-red, $light-red);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: 36% 37%;
+            border-radius: 0 0 0 6rem;
 
-            
-            margin-bottom: 6rem;
-        }
-
-        .principal-intro-title {
-            width: 18rem;
-            height: 4.5rem;
-
-            margin: auto;
-            
-
-            font-family: 'Overpass', sans-serif;
-            color: $white;
-            text-align: center;
-            font-weight: 600;
-            margin-bottom: 1.5rem;
-
-        }
-
-        .principal-intro-subtitle {
-            width: 21rem;
-            height: 4.5rem;
-            margin: auto;
+                .principal-intro-header {
+                    width: 23.438rem;
+                    height: 5rem;
         
-            
-            font-family: 'Overpass', sans-serif;
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: $white;
-            text-align: center;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: space-around;
+                    gap: 9rem;
+        
+                    margin-bottom: 6rem;
+                }
+        
+                .principal-intro-title {
+                    width: 18rem;
+                    height: 4.5rem;
+        
+                    margin: auto;
+                    
+        
+                    font-family: 'Overpass', sans-serif;
+                    color: $white;
+                    text-align: center;
+                    font-weight: 600;
+                    margin-bottom: 1.5rem;
+        
+                }
+        
+                .principal-intro-subtitle {
+                    width: 21rem;
+                    height: 4.5rem;
+                    margin: auto;
+                
+                    
+                    font-family: 'Overpass', sans-serif;
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    color: $white;
+                    text-align: center;
+        
+                }
 
+                .principal-intro-btns {
+                    width: 100%;
+                    height: 5rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 1rem;   
+                }
         }
 
-        .principal-intro-btns {
-            width: 100%;
-            height: 5rem;
+        .second {
+            width: auto;
+            height: 55rem;
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: center;
-            gap: 1rem;
-        
             
-        }
-
-}
-
-.second {
-    width: auto;
-    height: 50rem;
-    display: flex;
-    flex-direction: column;
-    
-    border-bottom: 1px solid green;
-
-        .second-title {
-            width: 18.5rem;
-            height: 2rem;
-            margin: auto;
-            margin-top: 5rem;
-
-            font-family: 'Overpass', sans-serif;
-            color: $very-dark-blue;
-            font-weight: 600;
-            font-size: 1.7rem;
-        }
-
-        .second-image {
-            width: 23rem;
-            margin: auto;
-            margin-top: 2rem;
-            margin-bottom: 0;
-        }
-
-        .second-subtitle {
-            width: 14rem;
-            height: 4rem;
-            margin: auto;
-            margin-top: 1.5rem;
-            margin-bottom: 0;
-
-            font-family: 'Overpass', sans-serif;
-            color: $very-dark-blue;
-            text-align: center;
-            font-size: 1.7rem;
-        }
-
-        .second-text {
-            width: 22rem;
-            height: 18rem;
-            margin: auto;
-            margin-top: 1rem;
-
-            font-family: 'Overpass', sans-serif;
-            color: $very-dark-grayish-blue;
-            font-size: 1.2rem;
-            line-height: 1.8rem;
-            text-align: center;
-            font-weight: 400;
-        }
-
-}
-
-.third {
-    width: auto;
-    height: 35rem;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid red;
-
-        .third-title {
-            width: 15rem;
-            height: 4rem;
-            margin: auto;
-            margin-top: 3rem;
-
-            font-family: 'Overpass', sans-serif;
-            color: $very-dark-blue;
-            text-align: center;
-            font-size: 1.7rem;
-            font-weight: 600;
-        }
-
-        .third-text {
-            width: 22rem;
-            height: 11rem;
-            margin: auto;
-            margin-top: 2rem;
-
-            font-family: 'Overpass', sans-serif;
-            color: $very-dark-grayish-blue;
-            font-size: 1.2rem;
-            line-height: 1.8rem;
-            text-align: center;
-            font-weight: 400;
-        }
-
-        .third-image {
-            width: 23rem;
-            margin: auto;
-            margin-top: 3rem;
-        }
-}
-
-.fourth {
-    width: auto;
-    height: 41.688rem;
-    border-radius: 0 6rem 0 6rem;
-    background-color: $very-dark-gray-blue;
-    background-image: url(../../images/bg-pattern-circles.svg), linear-gradient(to bottom, $very-dark-gray-blue, $very-dark-desaturated-blue);
-    background-repeat: no-repeat;
-    background-size: 160%;
-    background-position: center -380%;
-
-        .fourth-title {
-            width: 18rem;
-            height: 5rem;
-            font-family: 'Overpass', sans-serif;
-            font-size: 2.5rem;
-            text-align: center;
-            color: $white;
-            margin: auto;
-            padding-top: 13rem;
-        }
-
-        .fourth-text {
-            color: $white;
-            width: 22rem;
-            height: 15rem;
+            border-bottom: 1px solid green;
+               
+                .second-title {
+                    width: 18.5rem;
+                    height: 2rem;
+                    margin: auto;
+                    margin-top: 5rem;
+                    margin-bottom: 1rem;
         
-            font-family: 'Overpass', sans-serif;
-            font-size: 1.2rem;
-            line-height: 1.9rem;
-            text-align: center;
-            margin: auto;
-            margin-top: 2.2rem;
+                    font-family: 'Overpass', sans-serif;
+                    color: $very-dark-blue;
+                    font-weight: 600;
+                    font-size: 1.7rem;
+                }
+
+                .second-image {
+                    width: 23rem;
+                    height: 23rem;
+                    background-image: url(../../images/illustration-editor-mobile.svg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    border: 1px solid red;
+                }
+
+                .second-subtitle {
+                    width: 14rem;
+                    height: 4rem;
+                    margin: auto;
+                    margin-top: 1.5rem;
+                    margin-bottom: 0;
+        
+                    font-family: 'Overpass', sans-serif;
+                    color: $very-dark-blue;
+                    text-align: center;
+                    font-size: 1.7rem;
+                }
+
+                .second-text {
+                    width: 22rem;
+                    height: 18rem;
+                    margin: auto;
+                    margin-top: 1rem;
+        
+                    font-family: 'Overpass', sans-serif;
+                    color: $very-dark-grayish-blue;
+                    font-size: 1.2rem;
+                    line-height: 1.8rem;
+                    text-align: center;
+                    font-weight: 400;
+                }
         }
-}
 
+        .third {
+            width: auto;
+            height: 35rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
 
+            .third-title {
+                width: 15rem;
+                height: 4rem;
+                margin: auto;
+                margin-top: 2rem;
+                margin-bottom: 1.5rem;
+    
+                font-family: 'Overpass', sans-serif;
+                color: $very-dark-blue;
+                text-align: center;
+                font-size: 1.7rem;
+                font-weight: 600;
+            }
+
+            .third-text {
+                width: 22rem;
+                height: 11rem;
+                margin: auto;
+                margin-top: 0;
+    
+                font-family: 'Overpass', sans-serif;
+                color: $very-dark-grayish-blue;
+                font-size: 1.2rem;
+                line-height: 1.8rem;
+                text-align: center;
+                font-weight: 400;
+            }
+
+            .third-image {
+                width: 23rem;
+                height: 25rem; 
+                background-image: url(../../images/illustration-phones.svg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+                position: absolute;
+                top: 115rem;
+                z-index: 5;
+            }
+        }
+
+        .fourth {
+            width: auto;
+            height: 40rem;
+            border-radius: 0 6rem 0 6rem;
+            background-color: $very-dark-gray-blue;
+            background-image: url(../../images/bg-pattern-circles.svg), linear-gradient(to bottom, $very-dark-gray-blue, $very-dark-desaturated-blue);
+            background-repeat: no-repeat;
+            background-size: 160%;
+            background-position: center -380%;
+            z-index: 1;
+
+                .fourth-title {
+                    width: 18rem;
+                    height: 5rem;
+                    font-family: 'Overpass', sans-serif;
+                    font-size: 2.5rem;
+                    text-align: center;
+                    color: $white;
+                    margin: auto;
+                    padding-top: 13.5rem;
+                }
+
+                .fourth-text {
+                    color: $white;
+                    width: 22rem;
+                    height: 15rem;
+                
+                    font-family: 'Overpass', sans-serif;
+                    font-size: 1.2rem;
+                    line-height: 1.9rem;
+                    text-align: center;
+                    margin: auto;
+                    margin-top: 2.2rem;
+                }
+        }
+
+        .fifth {
+            width: auto;
+            height: 40rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid green;
+
+                .fifth-image {
+                    width: 23rem;
+                    height: 23rem;
+                    margin-top: 0;
+                    background-image: url(../../images/illustration-laptop-mobile.svg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    border: 1px solid red;
+                }
+        }
+
+ }
