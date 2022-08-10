@@ -38,8 +38,17 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
-  gap: 9rem;
+  gap: 6rem;
   margin-bottom: 6rem;
+}
+.principal .principal-intro .principal-intro-header .icon {
+  width: 32px;
+  height: 18px;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  background-image: url(../../images/icon-hamburger.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .principal .principal-intro .principal-intro-title {
   width: 18rem;
