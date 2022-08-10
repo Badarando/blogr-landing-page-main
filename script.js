@@ -1,4 +1,5 @@
 const img = document.querySelector('.icon');
+let num = 0;
 
 console.log(img)
 
@@ -7,13 +8,12 @@ console.log(img)
 // menu.appendChild(img);
 
 img.addEventListener('click', () => {
-    let x = 1;
-    x = 1 + 1;
-    if(x % 2 == 0){
+     num += 1
+     if(num % 2 == 1){
         img.style.backgroundImage = 'url(./images/icon-close.svg)'
-    } else {
+     } else {
         img.style.backgroundImage = 'url(./images/icon-hamburger.svg)'
-    }
-    console.log("clicando")
-    console.log(x)
+     }
+
 })
+
