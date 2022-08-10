@@ -253,6 +253,31 @@
   background-color: hsl(240deg, 10%, 16%);
   border-radius: 0 6rem 0 0rem;
   margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.principal .principal-footer img {
+  margin-top: 4rem;
+}
+.principal .principal-footer .footer-title {
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+.principal .principal-footer .footer-section {
+  width: 6rem;
+  height: 20rem;
+  border: 1px solid red;
+  text-align: center;
+}
+.principal .principal-footer .footer-section .footer-links {
+  width: 6rem;
+  height: 10rem;
+  color: hsl(0deg, 0%, 100%);
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */
