@@ -1,8 +1,6 @@
 const img = document.querySelector('.icon');
 let num = 0;
 
-console.log(img)
-
 // console.log(img);
 // img.src = "./images/icon-hamburger.svg";
 // menu.appendChild(img);
