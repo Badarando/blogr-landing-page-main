@@ -55,12 +55,9 @@
                             display: flex;
                             align-items: center;
                             justify-content: center;
-                            gap: .5rem;
                             border: 1px solid red;
 
                                 .principal-menu-title {
-                                    width: 5rem;
-                                    height: 1.5rem;
                                     border: 1px solid green;
                                     font-family: "Overpass", sans-serif;
                                     color: $very-dark-gray-blue;
@@ -68,16 +65,51 @@
                                     font-size: 1.3rem;
                                 }
                                 .principal-menu-arrow {
-                                    width: 2rem;
+                                    width: 1rem;
                                     height: 1.5rem;
                                     margin: 0;
                                     background-image: url(../../images/icon-arrow-dark.svg);
-                                    background-size: 50%;
+                                    background-size: 60%;
                                     background-position: center;
                                     background-repeat: no-repeat;
                                     
                                     border: 1px solid red;
                                 }
+                        }
+
+                        .connect-options.desactive {
+                            display: none;
+                        }
+
+                        .connect-options.active {
+                            width: 17rem;
+                            height: 9rem;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            background: hsla(240, 3%, 79%, 0.329);
+
+                                ul {
+                                    width: 8rem;
+                                    height: 7rem;
+                                    padding: 0;
+                                    border: 1px solid yellow;
+                                    li {
+                                        list-style-type: none;
+                                        font-family: "Overpass", sans-serif;
+                                        font-weight: 600;
+                                        padding-top: 1rem;
+                                        text-align: center;
+                                        
+                                    }
+                                }
+                        }
+
+                        .line {
+                            width: 17rem;
+                            margin-top: 1.5rem;
+                            color: hsla(240, 3%, 79%, 0.11);
                         }
                 }
         
