@@ -89,6 +89,7 @@
                             align-items: center;
                             justify-content: center;
                             background: hsla(240, 3%, 79%, 0.329);
+                            border-bottom: 4px solid hsla(240, 3%, 79%, 0.329);
 
                                 ul {
                                     width: 8rem;
@@ -109,7 +110,26 @@
                         .line {
                             width: 17rem;
                             margin-top: 1.5rem;
-                            color: hsla(240, 3%, 79%, 0.11);
+                            background-color: hsl(0, 0%, 92%);
+                        }
+
+                        .connect-options-title {
+                            font-family: "Overpass", sans-serif;
+                            color: $very-dark-desaturated-blue;
+                            font-size: 1.5rem;
+
+                        }
+
+                        button {
+                            width: 8rem;
+                            height: 3rem;
+                            border: none;
+                            border-radius: 3rem;
+                            font-family: "Ubuntu", sans-serif;
+                            font-size: 1.2rem;
+                            color: $white;
+                            font-weight: 700;
+                            background-image: linear-gradient(to right, $very-light-red, $light-red);
                         }
                 }
         

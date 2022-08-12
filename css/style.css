@@ -100,6 +100,7 @@
   align-items: center;
   justify-content: center;
   background: hsla(240deg, 3%, 79%, 0.329);
+  border-bottom: 4px solid hsla(240deg, 3%, 79%, 0.329);
 }
 .principal .principal-intro .principal-menu.active .connect-options.active ul {
   width: 8rem;
@@ -117,7 +118,23 @@
 .principal .principal-intro .principal-menu.active .line {
   width: 17rem;
   margin-top: 1.5rem;
-  color: hsla(240deg, 3%, 79%, 0.11);
+  background-color: hsl(0deg, 0%, 92%);
+}
+.principal .principal-intro .principal-menu.active .connect-options-title {
+  font-family: "Overpass", sans-serif;
+  color: hsl(237deg, 23%, 32%);
+  font-size: 1.5rem;
+}
+.principal .principal-intro .principal-menu.active button {
+  width: 8rem;
+  height: 3rem;
+  border: none;
+  border-radius: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2rem;
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
+  background-image: linear-gradient(to right, hsl(13deg, 100%, 72%), hsl(353deg, 100%, 62%));
 }
 .principal .principal-intro .principal-intro-title {
   width: 18rem;
