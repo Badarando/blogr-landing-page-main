@@ -35,11 +35,11 @@
                         }
                 }
 
-                .principal-menu {
+                .principal-menu.desactive {
                     display: none;
                 }
 
-                .principal-menu.active {
+                .principal-menu {
                     width: 20rem;
                     height: 31.5rem;
                     position: relative;
@@ -87,7 +87,7 @@
                             display: none;
                         }
 
-                        .connect-options.active {
+                        .connect-options {
                             width: 17rem;
                             height: 10rem;
                             display: flex;

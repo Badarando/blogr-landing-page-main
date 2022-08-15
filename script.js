@@ -1,5 +1,7 @@
 const img = document.querySelector('.icon');
 const popup = document.querySelector('.principal-menu');
+const conect = document.querySelector('#connect');
+const conections = document.querySelector('.connect-options');
 let num = 0;
 
 // console.log(img);
@@ -12,14 +14,21 @@ img.addEventListener('click', () => {
      num += 1
      if(num % 2 == 1){
         img.style.backgroundImage = 'url(./images/icon-close.svg)'
-        popup.classList.add('active')
+        popup.classList.remove('desactive')
 
      } else {
         img.style.backgroundImage = 'url(./images/icon-hamburger.svg)'
-        popup.classList.remove('active')
+        popup.classList.add('desactive')
      }
 
 })
 
-console.log(popup)
+conect.addEventListener('click', () => {
+   conections.classList.remove('desactive')
+   
+})
+
+
+
+console.log(conect)
 
