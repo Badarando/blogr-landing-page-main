@@ -50,12 +50,17 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.principal .principal-intro .principal-menu {
+  display: none;
+}
 .principal .principal-intro .principal-menu.active {
   width: 20rem;
-  height: 32rem;
+  height: 31.5rem;
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  padding-top: 0.5rem;
   flex-direction: column;
   bottom: 4rem;
   margin: auto;
@@ -65,15 +70,13 @@
 }
 .principal .principal-intro .principal-menu.active .principal-menu-options {
   width: 15rem;
-  height: 3rem;
+  height: 2rem;
   margin-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
 }
 .principal .principal-intro .principal-menu.active .principal-menu-options .principal-menu-title {
-  border: 1px solid green;
   font-family: "Overpass", sans-serif;
   color: hsl(237deg, 17%, 21%);
   text-align: center;
@@ -87,32 +90,31 @@
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
-  border: 1px solid red;
 }
 .principal .principal-intro .principal-menu.active .connect-options.desactive {
   display: none;
 }
 .principal .principal-intro .principal-menu.active .connect-options.active {
   width: 17rem;
-  height: 9rem;
+  height: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 1rem;
   background: hsla(240deg, 3%, 79%, 0.329);
-  border-bottom: 4px solid hsla(240deg, 3%, 79%, 0.329);
 }
 .principal .principal-intro .principal-menu.active .connect-options.active ul {
   width: 8rem;
-  height: 7rem;
+  height: 10rem;
   padding: 0;
-  border: 1px solid yellow;
 }
 .principal .principal-intro .principal-menu.active .connect-options.active ul li {
   list-style-type: none;
   font-family: "Overpass", sans-serif;
+  color: hsl(207deg, 13%, 34%);
   font-weight: 600;
-  padding-top: 1rem;
+  line-height: 2.5rem;
   text-align: center;
 }
 .principal .principal-intro .principal-menu.active .line {
@@ -120,13 +122,19 @@
   margin-top: 1.5rem;
   background-color: hsl(0deg, 0%, 92%);
 }
+.principal .principal-intro .principal-menu.active .connect-options-line {
+  height: 1.5rem;
+  width: 17rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid hsla(240deg, 3%, 79%, 0.329);
+}
 .principal .principal-intro .principal-menu.active .connect-options-title {
   font-family: "Overpass", sans-serif;
   color: hsl(237deg, 23%, 32%);
   font-size: 1.5rem;
 }
 .principal .principal-intro .principal-menu.active button {
-  width: 8rem;
+  width: 9rem;
   height: 3rem;
   border: none;
   border-radius: 3rem;

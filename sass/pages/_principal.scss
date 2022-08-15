@@ -15,13 +15,13 @@
                 .principal-intro-header {
                     width: 23.438rem;
                     height: 5rem;
-        
+
                     display: flex;
                     align-items: flex-end;
                     justify-content: space-around;
                     gap: 6rem;
-                    
-        
+
+
                     margin-bottom: 6rem;
 
                         .icon {
@@ -35,12 +35,18 @@
                         }
                 }
 
+                .principal-menu {
+                    display: none;
+                }
+
                 .principal-menu.active {
                     width: 20rem;
-                    height: 32rem;
+                    height: 31.5rem;
                     position: relative;
                     display: flex;
                     align-items: center;
+                    justify-content: flex-start;
+                    padding-top: .5rem;
                     flex-direction: column;
                     bottom: 4rem;
                     margin: auto;
@@ -50,15 +56,15 @@
 
                         .principal-menu-options {
                             width: 15rem;
-                            height: 3rem;
+                            height: 2rem;
                             margin-top: 1rem;
                             display: flex;
                             align-items: center;
                             justify-content: center;
-                            border: 1px solid red;
+                            // border: 1px solid red;
 
                                 .principal-menu-title {
-                                    border: 1px solid green;
+                                    // border: 1px solid green;
                                     font-family: "Overpass", sans-serif;
                                     color: $very-dark-gray-blue;
                                     text-align: center;
@@ -72,8 +78,8 @@
                                     background-size: 60%;
                                     background-position: center;
                                     background-repeat: no-repeat;
-                                    
-                                    border: 1px solid red;
+
+                                    // border: 1px solid red;
                                 }
                         }
 
@@ -83,26 +89,26 @@
 
                         .connect-options.active {
                             width: 17rem;
-                            height: 9rem;
+                            height: 10rem;
                             display: flex;
                             flex-direction: column;
                             align-items: center;
                             justify-content: center;
+                            margin-top: 1rem;
                             background: hsla(240, 3%, 79%, 0.329);
-                            border-bottom: 4px solid hsla(240, 3%, 79%, 0.329);
 
                                 ul {
                                     width: 8rem;
-                                    height: 7rem;
+                                    height: 10rem;
                                     padding: 0;
-                                    border: 1px solid yellow;
                                     li {
                                         list-style-type: none;
                                         font-family: "Overpass", sans-serif;
+                                        color: $very-dark-grayish-blue;
                                         font-weight: 600;
-                                        padding-top: 1rem;
+                                        line-height: 2.5rem;
                                         text-align: center;
-                                        
+
                                     }
                                 }
                         }
@@ -113,6 +119,14 @@
                             background-color: hsl(0, 0%, 92%);
                         }
 
+                        .connect-options-line {
+                            height: 1.5rem;
+                            width: 17rem;
+                            margin-bottom: 1rem;
+                            border-bottom: 1px solid hsla(240, 3%, 79%, 0.329);
+
+                        }
+
                         .connect-options-title {
                             font-family: "Overpass", sans-serif;
                             color: $very-dark-desaturated-blue;
@@ -121,7 +135,7 @@
                         }
 
                         button {
-                            width: 8rem;
+                            width: 9rem;
                             height: 3rem;
                             border: none;
                             border-radius: 3rem;
@@ -132,34 +146,34 @@
                             background-image: linear-gradient(to right, $very-light-red, $light-red);
                         }
                 }
-        
+
                 .principal-intro-title {
                     width: 18rem;
                     height: 4.5rem;
-        
+
                     margin: auto;
-                    
-        
+
+
                     font-family: 'Overpass', sans-serif;
                     color: $white;
                     text-align: center;
                     font-weight: 600;
                     margin-bottom: 1.5rem;
-        
+
                 }
-        
+
                 .principal-intro-subtitle {
                     width: 21rem;
                     height: 4.5rem;
                     margin: auto;
-                
-                    
+
+
                     font-family: 'Overpass', sans-serif;
                     font-size: 1.2rem;
                     font-weight: 600;
                     color: $white;
                     text-align: center;
-        
+
                 }
 
                 .principal-intro-btns {
@@ -168,7 +182,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    gap: 1rem;   
+                    gap: 1rem;
                 }
         }
 
@@ -178,15 +192,15 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            
-               
+
+
                 .second-title {
                     width: 18.5rem;
                     height: 2rem;
                     margin: auto;
                     margin-top: 5rem;
                     margin-bottom: 1rem;
-        
+
                     font-family: 'Overpass', sans-serif;
                     color: $very-dark-blue;
                     font-weight: 600;
@@ -207,7 +221,7 @@
                     margin: auto;
                     margin-top: 1.5rem;
                     margin-bottom: 0;
-        
+
                     font-family: 'Overpass', sans-serif;
                     color: $very-dark-blue;
                     text-align: center;
@@ -219,7 +233,7 @@
                     height: 18rem;
                     margin: auto;
                     margin-top: 1rem;
-        
+
                     font-family: 'Overpass', sans-serif;
                     color: $very-dark-grayish-blue;
                     font-size: 1.2rem;
@@ -235,7 +249,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            
+
 
             .third-title {
                 width: 15rem;
@@ -243,7 +257,7 @@
                 margin: auto;
                 margin-top: 2rem;
                 margin-bottom: 1.5rem;
-    
+
                 font-family: 'Overpass', sans-serif;
                 color: $very-dark-blue;
                 text-align: center;
@@ -256,7 +270,7 @@
                 height: 11rem;
                 margin: auto;
                 margin-top: 0;
-    
+
                 font-family: 'Overpass', sans-serif;
                 color: $very-dark-grayish-blue;
                 font-size: 1.2rem;
@@ -267,7 +281,7 @@
 
             .third-image {
                 width: 23rem;
-                height: 25rem; 
+                height: 25rem;
                 background-image: url(../../images/illustration-phones.svg);
                 background-repeat: no-repeat;
                 background-size: 100%;
@@ -304,7 +318,7 @@
                     color: $white;
                     width: 22rem;
                     height: 15rem;
-                
+
                     font-family: 'Overpass', sans-serif;
                     font-size: 1.2rem;
                     line-height: 1.9rem;
@@ -337,7 +351,7 @@
                     margin: auto;
                     margin-top: 2rem;
                     margin-bottom: 1rem;
-        
+
                     font-family: 'Overpass', sans-serif;
                     color: $very-dark-blue;
                     text-align: center;
@@ -351,7 +365,7 @@
                     margin: auto;
                     margin-top: 0;
                     margin-bottom: 1rem;
-        
+
                     font-family: 'Overpass', sans-serif;
                     color: $very-dark-grayish-blue;
                     font-size: 1.2rem;
@@ -365,7 +379,7 @@
                     height: 10rem;
                     margin: auto;
                     margin-top: 0;
-        
+
                     font-family: 'Overpass', sans-serif;
                     color: $very-dark-grayish-blue;
                     font-size: 1.2rem;
