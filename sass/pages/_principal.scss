@@ -40,8 +40,10 @@
                 }
 
                 .principal-menu {
+                    // width: 20rem;
+                    // height: 31.5rem;
                     width: 20rem;
-                    height: 31.5rem;
+                    height: 20rem;
                     position: relative;
                     display: flex;
                     align-items: center;
@@ -145,6 +147,10 @@
                             font-weight: 700;
                             background-image: linear-gradient(to right, $very-light-red, $light-red);
                         }
+                }
+
+                .principal-intro-title.desactive {
+                    display: none;
                 }
 
                 .principal-intro-title {

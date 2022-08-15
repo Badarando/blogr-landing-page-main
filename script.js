@@ -2,7 +2,10 @@ const img = document.querySelector('.icon');
 const popup = document.querySelector('.principal-menu');
 const conect = document.querySelector('#connect');
 const conections = document.querySelector('.connect-options');
+const menu = document.querySelector('.principal-menu');
+const title = document.querySelector('.principal-intro-title')
 let num = 0;
+let y = 0;
 
 // console.log(img);
 // img.src = "./images/icon-hamburger.svg";
@@ -24,8 +27,15 @@ img.addEventListener('click', () => {
 })
 
 conect.addEventListener('click', () => {
-   conections.classList.remove('desactive')
-   
+   y += 1
+   if(y % 2 == 1){
+      conections.classList.remove('desactive')
+      menu.style.height = '31.5rem'
+   } else {
+      conections.classList.add('desactive')
+      menu.style.height = '20rem'
+   }
+
 })
 
 
