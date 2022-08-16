@@ -1,9 +1,10 @@
 const img = document.querySelector('.icon');
 const popup = document.querySelector('.principal-menu');
 const conect = document.querySelector('#connect');
+const conectArrow = document.querySelector('#connect-arrow')
 const conections = document.querySelector('.connect-options');
 const menu = document.querySelector('.principal-menu');
-const title = document.querySelector('.principal-intro-title')
+const title = document.querySelector('.principal-intro-title');
 let num = 0;
 let y = 0;
 
@@ -30,9 +31,13 @@ conect.addEventListener('click', () => {
    y += 1
    if(y % 2 == 1){
       conections.classList.remove('desactive')
-      menu.style.height = '31.5rem'
+      conect.style.color = 'hsl(240, 2%, 79%)';
+      conectArrow.style.backgroundImage = 'url(./images/icon-arrow-light.svg)'
+      menu.style.height = '31.5rem';
    } else {
       conections.classList.add('desactive')
+      conectArrow.style.backgroundImage = 'url(./images/icon-arrow-dark.svg)'
+      conect.style.color = 'hsl(237, 23%, 32%)';
       menu.style.height = '20rem'
    }
 
