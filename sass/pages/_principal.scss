@@ -44,13 +44,15 @@
                     // height: 31.5rem;
                     width: 20rem;
                     height: 20rem;
-                    position: relative;
+                    position: absolute;
+                    z-index: 5;
                     display: flex;
                     align-items: center;
                     justify-content: flex-start;
                     padding-top: .5rem;
                     flex-direction: column;
-                    bottom: 4rem;
+                    top: 7rem;
+                    right: 1.6rem;
                     margin: auto;
                     background-color: $white;
                     border-radius: .3rem;
@@ -149,13 +151,11 @@
                         }
                 }
 
-                .principal-intro-title.desactive {
-                    display: none;
-                }
-
                 .principal-intro-title {
                     width: 18rem;
                     height: 4.5rem;
+                    position: static;
+                    z-index: 1;
 
                     margin: auto;
 

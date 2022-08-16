@@ -31,8 +31,8 @@ conect.addEventListener('click', () => {
    y += 1
    if(y % 2 == 1){
       conections.classList.remove('desactive')
-      conect.style.color = 'hsl(240, 2%, 79%)';
-      conectArrow.style.backgroundImage = 'url(./images/icon-arrow-light.svg)'
+      conect.style.color = 'hsl(207, 13%, 34%)';
+      conectArrow.style.backgroundImage = 'url(./images/icon-arrow-dark-inverted.svg)'
       menu.style.height = '31.5rem';
    } else {
       conections.classList.add('desactive')
