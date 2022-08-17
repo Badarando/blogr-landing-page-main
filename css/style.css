@@ -145,9 +145,6 @@
   font-weight: 700;
   background-image: linear-gradient(to right, hsl(13deg, 100%, 72%), hsl(353deg, 100%, 62%));
 }
-.principal .principal-intro .principal-intro-title.desactive {
-  display: none;
-}
 .principal .principal-intro .principal-intro-title {
   width: 80vw;
   height: 4.5rem;
@@ -156,17 +153,39 @@
   color: hsl(0deg, 0%, 100%);
   text-align: center;
   font-weight: 600;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 37.5rem) {
+  .principal .principal-intro .principal-intro-title {
+    height: 3rem;
+    font-size: 2rem;
+    margin-bottom: 2%;
+    border: 1px solid red;
+  }
+}
+@media (min-width: 75rem) {
+  .principal .principal-intro .principal-intro-title {
+    font-size: 3rem;
+    border: 1px solid yellow;
+  }
 }
 .principal .principal-intro .principal-intro-subtitle {
   width: 21rem;
-  height: 4.5rem;
+  height: 3rem;
   margin: auto;
+  margin-bottom: 2rem;
   font-family: "Overpass", sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
   color: hsl(0deg, 0%, 100%);
   text-align: center;
+  border: 1px solid black;
+}
+@media (min-width: 37.5rem) {
+  .principal .principal-intro .principal-intro-subtitle {
+    width: 80vw;
+    height: 2rem;
+  }
 }
 .principal .principal-intro .principal-intro-btns {
   width: 100%;
@@ -177,8 +196,8 @@
   gap: 1rem;
 }
 .principal .second {
-  width: auto;
-  height: 55rem;
+  width: 100vw;
+  height: 91rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -213,58 +232,17 @@
   font-size: 1.7rem;
 }
 .principal .second .second-text {
-  width: 22rem;
+  width: 19rem;
   height: 18rem;
   margin: auto;
   margin-top: 1rem;
+  margin-bottom: 0;
   font-family: "Overpass", sans-serif;
   color: hsl(207deg, 13%, 34%);
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.8rem;
   text-align: center;
   font-weight: 400;
-}
-.principal .third {
-  width: auto;
-  height: 35rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.principal .third .third-title {
-  width: 15rem;
-  height: 4rem;
-  margin: auto;
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
-  font-family: "Overpass", sans-serif;
-  color: hsl(208deg, 49%, 24%);
-  text-align: center;
-  font-size: 1.7rem;
-  font-weight: 600;
-}
-.principal .third .third-text {
-  width: 22rem;
-  height: 11rem;
-  margin: auto;
-  margin-top: 0;
-  font-family: "Overpass", sans-serif;
-  color: hsl(207deg, 13%, 34%);
-  font-size: 1.2rem;
-  line-height: 1.8rem;
-  text-align: center;
-  font-weight: 400;
-}
-.principal .third .third-image {
-  width: 23rem;
-  height: 25rem;
-  background-image: url(../../images/illustration-phones.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  position: absolute;
-  top: 115rem;
-  z-index: 5;
 }
 .principal .fourth {
   width: 100vw;
@@ -274,8 +252,20 @@
   background-image: url(../../images/bg-pattern-circles.svg), linear-gradient(to bottom, hsl(237deg, 17%, 21%), hsl(237deg, 23%, 32%));
   background-repeat: no-repeat;
   background-size: 160%;
-  background-position: center -600%;
+  background-position: center -700%;
   z-index: 1;
+}
+.principal .fourth .fourth-image {
+  width: 23rem;
+  height: 23rem;
+  margin: auto;
+  background-image: url(../../images/illustration-phones.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: absolute;
+  top: 116rem;
+  z-index: 5;
 }
 .principal .fourth .fourth-title {
   width: 18rem;
@@ -285,14 +275,14 @@
   text-align: center;
   color: hsl(0deg, 0%, 100%);
   margin: auto;
-  padding-top: 13.5rem;
+  padding-top: 12rem;
 }
 .principal .fourth .fourth-text {
   color: hsl(0deg, 0%, 100%);
-  width: 22rem;
-  height: 15rem;
+  width: 20rem;
+  height: 13rem;
   font-family: "Overpass", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.9rem;
   text-align: center;
   margin: auto;
@@ -300,7 +290,7 @@
 }
 .principal .fifth {
   width: auto;
-  height: 65rem;
+  height: 68rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -308,7 +298,7 @@
 .principal .fifth .fifth-image {
   width: 23rem;
   height: 23rem;
-  margin-top: 0;
+  margin-top: 3rem;
   margin-bottom: 0;
   background-image: url(../../images/illustration-laptop-mobile.svg);
   background-repeat: no-repeat;
@@ -319,7 +309,7 @@
   height: 2rem;
   margin: auto;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.7rem;
   font-family: "Overpass", sans-serif;
   color: hsl(208deg, 49%, 24%);
   text-align: center;
@@ -327,26 +317,26 @@
   font-weight: 600;
 }
 .principal .fifth .fifth-text {
-  width: 22rem;
-  height: 16rem;
+  width: 21rem;
+  height: 15rem;
   margin: auto;
   margin-top: 0;
   margin-bottom: 1rem;
   font-family: "Overpass", sans-serif;
   color: hsl(207deg, 13%, 34%);
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.8rem;
   text-align: center;
   font-weight: 400;
 }
 .principal .fifth .fifth-second-text {
-  width: 22rem;
+  width: 21rem;
   height: 10rem;
   margin: auto;
   margin-top: 0;
   font-family: "Overpass", sans-serif;
   color: hsl(207deg, 13%, 34%);
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.8rem;
   text-align: center;
   font-weight: 400;
