@@ -23,6 +23,11 @@
   width: 23.438rem;
   height: 237.01rem;
 }
+@media (min-width: 75rem) {
+  .principal {
+    height: 400rem;
+  }
+}
 .principal .principal-intro {
   width: 100vw;
   height: 37rem;
@@ -202,6 +207,13 @@
   flex-direction: column;
   align-items: center;
 }
+@media (min-width: 75rem) {
+  .principal .second {
+    margin-top: 2rem;
+    height: 60rem;
+    border: 1px solid red;
+  }
+}
 .principal .second .second-title {
   width: 18.5rem;
   height: 2rem;
@@ -209,9 +221,25 @@
   margin-top: 5rem;
   margin-bottom: 1rem;
   font-family: "Overpass", sans-serif;
+  text-align: center;
   color: hsl(208deg, 49%, 24%);
   font-weight: 600;
   font-size: 1.7rem;
+}
+@media (min-width: 37.5rem) {
+  .principal .second .second-title {
+    width: 23rem;
+    height: 3rem;
+    font-size: 2rem;
+  }
+}
+@media (min-width: 75rem) {
+  .principal .second .second-title {
+    width: 30rem;
+    height: 4rem;
+    font-size: 2.5rem;
+    margin-bottom: 7.5rem;
+  }
 }
 .principal .second .second-image {
   width: 23rem;
@@ -219,6 +247,17 @@
   background-image: url(../../images/illustration-editor-mobile.svg);
   background-repeat: no-repeat;
   background-position: center;
+}
+@media (min-width: 75rem) {
+  .principal .second .second-image {
+    width: 100vw;
+    height: 56rem;
+    position: absolute;
+    z-index: -1;
+    background-image: url(../../images/illustration-editor-desktop.svg);
+    background-position: 150% center;
+    background-size: auto;
+  }
 }
 .principal .second .second-subtitle {
   width: 14rem;
@@ -230,6 +269,15 @@
   color: hsl(208deg, 49%, 24%);
   text-align: center;
   font-size: 1.7rem;
+}
+@media (min-width: 75rem) {
+  .principal .second .second-subtitle {
+    width: 25rem;
+    height: 2rem;
+    position: relative;
+    right: 25rem;
+    margin: 0;
+  }
 }
 .principal .second .second-text {
   width: 19rem;
@@ -243,6 +291,15 @@
   line-height: 1.8rem;
   text-align: center;
   font-weight: 400;
+}
+@media (min-width: 75rem) {
+  .principal .second .second-text {
+    width: 31.5rem;
+    height: 12rem;
+    text-align: left;
+    position: relative;
+    right: 21.8rem;
+  }
 }
 .principal .fourth {
   width: 100vw;
