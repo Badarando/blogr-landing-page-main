@@ -32,11 +32,6 @@
   background-position: 36% 37%;
   border-radius: 0 0 0 6rem;
 }
-@media (min-width: 75rem) {
-  .principal .principal-intro {
-    height: 33rem;
-  }
-}
 .principal .principal-intro .principal-intro-header {
   width: 23.438rem;
   height: 5rem;
@@ -45,11 +40,6 @@
   justify-content: space-around;
   gap: 6rem;
   margin-bottom: 6rem;
-}
-@media (min-width: 75rem) {
-  .principal .principal-intro .principal-intro-header {
-    width: 100%;
-  }
 }
 .principal .principal-intro .principal-intro-header .icon {
   width: 32px;
@@ -168,14 +158,6 @@
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
-@media (min-width: 75rem) {
-  .principal .principal-intro .principal-intro-title {
-    width: 80vw;
-    height: 3rem;
-    font-size: 3rem;
-    border: 1px solid green;
-  }
-}
 .principal .principal-intro .principal-intro-subtitle {
   width: 21rem;
   height: 4.5rem;
@@ -185,11 +167,6 @@
   font-weight: 600;
   color: hsl(0deg, 0%, 100%);
   text-align: center;
-}
-@media (min-width: 75rem) {
-  .principal .principal-intro .principal-intro-subtitle {
-    width: 40rem;
-  }
 }
 .principal .principal-intro .principal-intro-btns {
   width: 100%;

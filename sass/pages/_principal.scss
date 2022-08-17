@@ -5,16 +5,12 @@
         .principal-intro {
             width: 100vw;
             height: 37rem;
-
             background-image: url(../../images/bg-pattern-intro-mobile.svg), linear-gradient(to bottom, $very-light-red, $light-red);
             background-repeat: no-repeat;
             background-size: auto;
             background-position: 36% 37%;
             border-radius: 0 0 0 6rem;
 
-            @include desktop {
-                height: 33rem;
-            }
 
                 .principal-intro-header {
                     width: 23.438rem;
@@ -28,9 +24,6 @@
 
                     margin-bottom: 6rem;
 
-                        @include desktop {
-                            width: 100%;
-                        }
 
                         .icon {
                             width: 32px;
@@ -174,13 +167,6 @@
                     font-weight: 600;
                     margin-bottom: 1.5rem;
 
-                    @include desktop {
-                        width: 80vw;
-                        height: 3rem;
-                        font-size: 3rem;
-                        border: 1px solid green;
-                    }
-
                 }
 
                 .principal-intro-subtitle {
@@ -194,10 +180,6 @@
                     font-weight: 600;
                     color: $white;
                     text-align: center;
-
-                    @include desktop {
-                        width: 40rem;
-                    }
 
                 }
 
