@@ -56,13 +56,14 @@
 .principal .principal-intro .principal-menu {
   width: 20rem;
   height: 20rem;
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding-top: 0.5rem;
   flex-direction: column;
-  bottom: 4rem;
+  top: 7rem;
+  right: 1.7rem;
   margin: auto;
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 0.3rem;
@@ -84,11 +85,11 @@
 }
 .principal .principal-intro .principal-menu .principal-menu-options .principal-menu-arrow {
   width: 1rem;
-  height: 1.5rem;
+  height: 1.2rem;
   margin: 0;
   background-image: url(../../images/icon-arrow-dark.svg);
   background-size: 60%;
-  background-position: center;
+  background-position: center 6px;
   background-repeat: no-repeat;
 }
 .principal .principal-intro .principal-menu .connect-options.desactive {
