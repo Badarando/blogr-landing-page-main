@@ -3,7 +3,7 @@
     height: 237.010rem;
 
         .principal-intro {
-            width: 23.438rem;
+            width: 100vw;
             height: 37rem;
 
             background-image: url(../../images/bg-pattern-intro-mobile.svg), linear-gradient(to bottom, $very-light-red, $light-red);
@@ -11,6 +11,10 @@
             background-size: auto;
             background-position: 36% 37%;
             border-radius: 0 0 0 6rem;
+
+            @include desktop {
+                height: 33rem;
+            }
 
                 .principal-intro-header {
                     width: 23.438rem;
@@ -23,6 +27,10 @@
 
 
                     margin-bottom: 6rem;
+
+                        @include desktop {
+                            width: 100%;
+                        }
 
                         .icon {
                             width: 32px;
@@ -152,7 +160,7 @@
                 }
 
                 .principal-intro-title {
-                    width: 18rem;
+                    width: 80vw;
                     height: 4.5rem;
                     position: static;
                     z-index: 1;
@@ -165,6 +173,13 @@
                     text-align: center;
                     font-weight: 600;
                     margin-bottom: 1.5rem;
+
+                    @include desktop {
+                        width: 80vw;
+                        height: 3rem;
+                        font-size: 3rem;
+                        border: 1px solid green;
+                    }
 
                 }
 
@@ -179,6 +194,10 @@
                     font-weight: 600;
                     color: $white;
                     text-align: center;
+
+                    @include desktop {
+                        width: 40rem;
+                    }
 
                 }
 
@@ -299,14 +318,14 @@
         }
 
         .fourth {
-            width: auto;
+            width: 100vw;
             height: 40rem;
             border-radius: 0 6rem 0 6rem;
             background-color: $very-dark-gray-blue;
             background-image: url(../../images/bg-pattern-circles.svg), linear-gradient(to bottom, $very-dark-gray-blue, $very-dark-desaturated-blue);
             background-repeat: no-repeat;
             background-size: 160%;
-            background-position: center -380%;
+            background-position: center -600%;
             z-index: 1;
 
                 .fourth-title {
@@ -396,7 +415,7 @@
         }
 
         .principal-footer {
-            width: auto;
+            width: 100vw;
             height: 50rem;
             background-color: $very-dark-black-blue;
             border-radius: 0 6rem 0 0rem;

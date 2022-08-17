@@ -24,13 +24,18 @@
   height: 237.01rem;
 }
 .principal .principal-intro {
-  width: 23.438rem;
+  width: 100vw;
   height: 37rem;
   background-image: url(../../images/bg-pattern-intro-mobile.svg), linear-gradient(to bottom, hsl(13deg, 100%, 72%), hsl(353deg, 100%, 62%));
   background-repeat: no-repeat;
   background-size: auto;
   background-position: 36% 37%;
   border-radius: 0 0 0 6rem;
+}
+@media (min-width: 75rem) {
+  .principal .principal-intro {
+    height: 33rem;
+  }
 }
 .principal .principal-intro .principal-intro-header {
   width: 23.438rem;
@@ -40,6 +45,11 @@
   justify-content: space-around;
   gap: 6rem;
   margin-bottom: 6rem;
+}
+@media (min-width: 75rem) {
+  .principal .principal-intro .principal-intro-header {
+    width: 100%;
+  }
 }
 .principal .principal-intro .principal-intro-header .icon {
   width: 32px;
@@ -147,7 +157,7 @@
   background-image: linear-gradient(to right, hsl(13deg, 100%, 72%), hsl(353deg, 100%, 62%));
 }
 .principal .principal-intro .principal-intro-title {
-  width: 18rem;
+  width: 80vw;
   height: 4.5rem;
   position: static;
   z-index: 1;
@@ -158,6 +168,14 @@
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
+@media (min-width: 75rem) {
+  .principal .principal-intro .principal-intro-title {
+    width: 80vw;
+    height: 3rem;
+    font-size: 3rem;
+    border: 1px solid green;
+  }
+}
 .principal .principal-intro .principal-intro-subtitle {
   width: 21rem;
   height: 4.5rem;
@@ -167,6 +185,11 @@
   font-weight: 600;
   color: hsl(0deg, 0%, 100%);
   text-align: center;
+}
+@media (min-width: 75rem) {
+  .principal .principal-intro .principal-intro-subtitle {
+    width: 40rem;
+  }
 }
 .principal .principal-intro .principal-intro-btns {
   width: 100%;
@@ -267,14 +290,14 @@
   z-index: 5;
 }
 .principal .fourth {
-  width: auto;
+  width: 100vw;
   height: 40rem;
   border-radius: 0 6rem 0 6rem;
   background-color: hsl(237deg, 17%, 21%);
   background-image: url(../../images/bg-pattern-circles.svg), linear-gradient(to bottom, hsl(237deg, 17%, 21%), hsl(237deg, 23%, 32%));
   background-repeat: no-repeat;
   background-size: 160%;
-  background-position: center -380%;
+  background-position: center -600%;
   z-index: 1;
 }
 .principal .fourth .fourth-title {
@@ -352,7 +375,7 @@
   font-weight: 400;
 }
 .principal .principal-footer {
-  width: auto;
+  width: 100vw;
   height: 50rem;
   background-color: hsl(240deg, 10%, 16%);
   border-radius: 0 6rem 0 0rem;
