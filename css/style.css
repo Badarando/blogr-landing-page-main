@@ -56,15 +56,13 @@
 .principal .principal-intro .principal-menu {
   width: 20rem;
   height: 20rem;
-  position: absolute;
-  z-index: 5;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding-top: 0.5rem;
   flex-direction: column;
-  top: 7rem;
-  right: 1.6rem;
+  bottom: 4rem;
   margin: auto;
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 0.3rem;
@@ -146,11 +144,12 @@
   font-weight: 700;
   background-image: linear-gradient(to right, hsl(13deg, 100%, 72%), hsl(353deg, 100%, 62%));
 }
+.principal .principal-intro .principal-intro-title.desactive {
+  display: none;
+}
 .principal .principal-intro .principal-intro-title {
   width: 80vw;
   height: 4.5rem;
-  position: static;
-  z-index: 1;
   margin: auto;
   font-family: "Overpass", sans-serif;
   color: hsl(0deg, 0%, 100%);
