@@ -25,7 +25,7 @@
 }
 @media (min-width: 75rem) {
   .principal {
-    height: 400rem;
+    height: 212.125rem;
   }
 }
 .principal .principal-intro {
@@ -184,7 +184,6 @@
   font-weight: 600;
   color: hsl(0deg, 0%, 100%);
   text-align: center;
-  border: 1px solid black;
 }
 @media (min-width: 37.5rem) {
   .principal .principal-intro .principal-intro-subtitle {

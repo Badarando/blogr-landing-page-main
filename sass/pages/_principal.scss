@@ -1,10 +1,11 @@
  .principal {
     width: 23.438rem;
     height: 237.010rem;
+    
 
     @include desktop {
-        // height: 212.125rem;
-        height: 400rem;
+        height: 212.125rem;
+        // height: 400rem;
     }
 
         .principal-intro {
@@ -195,7 +196,7 @@
                     font-weight: 600;
                     color: $white;
                     text-align: center;
-                    border: 1px solid black;
+                    
 
                     @include tablet {
                         width: 80vw;
